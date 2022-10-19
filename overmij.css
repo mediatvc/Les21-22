@@ -1,0 +1,29 @@
+@media (max-width:767px) {
+    
+    .container{
+    max-width: 80%;
+    
+    }
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .nav-item{
+        padding-left:2rem;
+    }
+    #foto1{
+       display: none;
+    }
+}
+
+    @media (min-width:768px) {
+    
+    .container{
+    max-width: 60%;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    }
